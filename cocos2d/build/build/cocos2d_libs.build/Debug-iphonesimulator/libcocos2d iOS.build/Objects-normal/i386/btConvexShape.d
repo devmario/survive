@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btConvexShape.cpp \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btConvexShape.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btCollisionShape.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/build/../external/bullet/LinearMath/btTransform.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/build/../external/bullet/LinearMath/btMatrix3x3.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/build/../external/bullet/LinearMath/btVector3.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/build/../external/bullet/LinearMath/btScalar.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/build/../external/bullet/LinearMath/btMinMax.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/build/../external/bullet/LinearMath/btAlignedAllocator.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/build/../external/bullet/LinearMath/btQuaternion.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/build/../external/bullet/LinearMath/btQuadWord.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/build/../external/bullet/BulletCollision//BroadphaseCollision/btBroadphaseProxy.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btCollisionMargin.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btTriangleShape.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btBoxShape.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btPolyhedralConvexShape.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btConvexInternalShape.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/build/../external/bullet/LinearMath/btAabbUtil2.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btSphereShape.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btCylinderShape.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btConeShape.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btCapsuleShape.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btConvexHullShape.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/build/../external/bullet/LinearMath/btAlignedObjectArray.h \
+  /Users/jangwonhee/Documents/Survive/cocos2d/external/bullet/BulletCollision/CollisionShapes/btConvexPointCloudShape.h
