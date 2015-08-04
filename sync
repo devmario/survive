@@ -1,0 +1,26 @@
+#!/usr/bin/python
+
+from mod_pbxproj import XcodeProject
+from os import listdir
+from os.path import isfile, join
+
+print "Sync Classes\n"
+
+# open project
+project = XcodeProject.Load('proj.ios_mac/Survive.xcodeproj/project.pbxproj')
+
+# group
+group = project.get_or_create_group('Classes')
+
+# class file list
+onlyfiles = [ f for f in listdir("Classes") if isfile(join("Classes",f)) ]
+
+# add class
+for i in onlyfiles:
+           print i
+           project.add_file_if_doesnt_exist("../Classes/" + i, parent=group)
+
+# save
+project.save()
+
+print "\n\033[92m=== Completed Sync Classes\033[0m\n"
