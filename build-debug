@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# setup simulator
+xcrun instruments -w 'iPhone 6 (8.4 Simulator)'
+xcrun simctl uninstall com.chiefrise.survive
+
+# build and install
+./build
+xcrun simctl install booted proj.ios_mac/build/Build/Products/Debug-iphonesimulator/Survive-mobile.app
+
+# run
+xcrun simctl launch booted com.chiefrise.survive
+
+# attach debug
+PID=`pgrep -f Survive-mobile`
+lldb -s 'lldb-comm' -p $PID
+
